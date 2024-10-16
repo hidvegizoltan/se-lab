@@ -13,7 +13,10 @@ public class TorpedoStore {
   private double FAILURE_RATE = 0.0; //NOSONAR
   private Random generator = new Random();
   private int torpedoCount = 0;
+ //több komment
 
+ //meg több komment
+ 
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
 
